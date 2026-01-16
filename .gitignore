@@ -1,0 +1,29 @@
+# Build outputs
+bin/
+obj/
+out/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+.editorconfig
+
+# User secrets
+appsettings.Development.json
+appsettings.Local.json
+*.local.json
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker data (local volumes)
+docker/*-data/
+docs/
